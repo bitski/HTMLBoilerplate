@@ -1,0 +1,29 @@
+// Override Bootstrap default Sass variables & options.
+
+// Color system
+$primary: #45b14b;
+$secondary: #666666;
+
+// Options
+$enable-rounded: false;
+$enable-rfs: false;
+
+// Accordion
+$accordion-color: white;
+$accordion-border-width: 2px;
+$accordion-border-color: white;
+
+$accordion-button-active-bg: $secondary;
+$accordion-button-active-color: white;
+
+$accordion-button-focus-box-shadow: none;
+
+// Body
+// Links
+// Typography
+// Buttons + Forms
+// Navs
+// Navbar
+// Dropdowns
+// Pagination
+// Carousel

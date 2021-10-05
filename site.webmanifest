@@ -1,0 +1,20 @@
+{
+    "name": "Website name",
+    "short_name": "A shorter version of website name",
+    "icons": [
+        {
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "start_url": "/?utm_source=homescreen",
+    "theme_color": "#4a4a4a",
+    "background_color": "#4a4a4a",
+    "display": "standalone"
+}

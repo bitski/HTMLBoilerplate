@@ -1,0 +1,14 @@
+// Container styles
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: block;
+}
+
+.container-pad {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 $pad;
+  display: block;
+}
+

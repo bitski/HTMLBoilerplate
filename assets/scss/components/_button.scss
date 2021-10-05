@@ -1,0 +1,14 @@
+// Button
+.btn {
+  padding: $pad;
+  background-color: $primary;
+  color: white;
+}
+
+.btn-pseudos {
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $secondary;
+  }
+}

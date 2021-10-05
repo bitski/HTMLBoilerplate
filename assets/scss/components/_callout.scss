@@ -1,0 +1,13 @@
+// Callout
+.callout {
+  background-color: $secondary;
+  color: white;
+
+  .content {
+    padding: $pad 0;
+
+    h2 {
+      text-transform: uppercase;
+    }
+  }
+}

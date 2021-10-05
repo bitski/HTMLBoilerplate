@@ -1,0 +1,107 @@
+// Header
+#header {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .brand {
+    position: relative;
+    min-height: 275px;
+    border-bottom: 1px solid $primary;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+
+  img.logo {
+    position: absolute;
+    width: min(430px + (-400px + 100vw) * 0.0875, 500px);
+    height: auto;
+    left: $left-logo;
+    bottom: $bottom-logo;
+  }
+
+  .kontakt {
+    padding: $pad 0;
+
+    span {
+      @include display-from(block);
+    }
+
+    span.tel, span.fax, span.hours, span.appoint {
+      @include display-from(inline-block, $breakpoint-md);
+    }
+
+    span.appoint {
+      @include display-from(block, $breakpoint-xl);
+    }
+
+    span.del {
+      &::after {
+        content: $delimiter-p;
+        @include display-from(inline, $breakpoint-md, none);
+      }
+    }
+
+    a {
+      padding: 0.5em 0;
+      color: inherit;
+    }
+  }
+
+  @media screen and (min-width: $breakpoint-xl) {
+    .flex-container {
+      flex-direction: initial;
+    }
+
+    .flex-item {
+      flex: 1 1 100%;
+    }
+
+    a.brand {
+      border-bottom: none;
+
+      &::after {
+        content: '';
+        width: 1px;
+        height: calc(100% - #{$pad} * 2);
+        position: absolute;
+        top: $pad;
+        right: 0;
+        background-color: $primary;
+      }
+    }
+
+    .kontakt {
+      padding-left: $pad;
+    }
+  }
+}
+
+
+//footer {
+//  @include display(flex);
+//  @include justify-content(space-between);
+//  width: 100%;
+//
+//  &.dark {
+//    background: rgba(0,0,0,1);
+//  }
+//
+//  .container {
+//    padding: 1em;
+//  }
+//}
+
+//Footer Buttons
+//footer .btn {
+//  @include flex(0 0 auto);
+//  color: $red;
+//}
+
+//Footer Copyright Message
+//footer .copyright {
+//  text-align: center;
+//}

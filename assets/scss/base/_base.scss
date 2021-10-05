@@ -1,0 +1,31 @@
+// Globals
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  *, ::before, ::after {
+    box-sizing: inherit;
+  }
+}
+
+main {}
+
+section {}
+
+article {}
+
+div {}
+
+p {
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+ul, ol {
+  padding-left: 0;
+  list-style: none;
+}

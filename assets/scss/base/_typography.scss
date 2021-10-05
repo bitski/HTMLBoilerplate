@@ -1,0 +1,60 @@
+// Typography
+html {
+  font-family: $sans-serif, sans-serif;
+  @include font-size(19px);
+  line-height: $line-height-base;
+  font-weight: normal;
+  color: $secondary;
+}
+
+body {
+  font: inherit;
+  color: inherit;
+}
+
+// Header Styles
+h1, h2, h3 {
+  margin: 0 0 calc(#{$pad} * 0.5);
+  font-weight: bold;
+  line-height: $line-height-heading;
+}
+
+p + h1,
+p + h2,
+p + h3 {
+  margin-top: 2rem;
+}
+
+h1, h2 {
+  text-transform: uppercase;
+}
+
+h1, h2 {
+  @include font-size(24px);
+}
+
+p {
+
+}
+
+a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+// Text Styles
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
