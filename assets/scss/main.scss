@@ -7,8 +7,8 @@ Copyright 2021 bitski
 */
 
 // 1. Vendors
-@import "vendor/bootstrap/bootstrap";
-// 5.0.0-beta3
+//@import "vendor/bootstrap/bootstrap";
+// 5.1.2.
 
 // 2. Configuration and helpers
 //
@@ -21,7 +21,7 @@ Copyright 2021 bitski
 // 3. Base
 //
 // Global styles used in the project.
-//@import "base/reset";
+@import "base/reset";
 @import "base/base";
 @import "base/fonts";
 @import "base/typography";
