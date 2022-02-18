@@ -1,2 +1,2 @@
 # HTMLBoilerplate
-HTML 5 boilerplate with SCSS architecture &amp; Bootstrap integration
+HTML 5 boilerplate with Bootstrap integration &amp; without Sass integration
